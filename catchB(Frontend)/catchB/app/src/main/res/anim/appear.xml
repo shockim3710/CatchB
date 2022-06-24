@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    android:interpolator="@android:anim/overshot_interpolator"
+    <!--    CatchB text 애니메이션 효과 위에서 아래로 떨어지는 듯한 느낌 연출-->
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="0"
+        android:fromYDelta="-20%p"
+        android:toYDelta="0%p"
+        android:duration="1000"/>
+
+</set>

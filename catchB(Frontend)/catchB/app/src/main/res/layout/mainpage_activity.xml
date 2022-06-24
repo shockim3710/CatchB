@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".introview.IntroActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include  layout="@layout/toolbar1"/>
+
+        <ImageView
+            android:id="@+id/touched_image"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:layout_gravity="center"
+            android:background="@drawable/example_picture"
+            android:contentDescription="@string/imageview_desc" />
+
+        <TextView
+            android:id="@+id/mtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Title_text" />
+
+        <TextView
+            android:id="@+id/loctv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/loc_text1"
+            android:textSize="18sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id ="@+id/input_here_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/loctv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/loc_text2"
+            android:textSize="18sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id ="@+id/input_here_layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/loctv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/loc_text3"
+            android:textSize="18sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id ="@+id/input_here_layout3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

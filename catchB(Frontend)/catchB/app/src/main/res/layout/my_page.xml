@@ -1,0 +1,184 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <include  layout="@layout/toolbar2"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <!-- 내정보 레이아웃 -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/graybackground"
+            android:contentDescription="@drawable/graybackground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <!-- 유저사진 -->
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/userpicture"
+                android:contentDescription="@drawable/userpicture"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <!-- 닉네임 -->
+                <TextView
+                    android:id="@+id/get_nickname"
+                    android:layout_width="240dp"
+                    android:layout_height="23dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    />
+
+                <!-- 아이디 -->
+                <TextView
+                    android:id="@+id/get_id"
+                    android:layout_width="240dp"
+                    android:layout_height="23dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 나의 크레딧 -->
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="147dp"
+            android:text="@string/credittitle"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <!-- 유저 크레딧 -->
+        <TextView
+            android:id="@+id/get_credit"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="145dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="end"
+            />
+
+        <!-- 크레딧 -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="145dp"
+            android:src="@drawable/credit"
+            android:contentDescription="@drawable/credit"
+            />
+
+
+
+    </FrameLayout>
+
+            <!-- 찜목록 버튼 -->
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/heart"
+                android:drawableRight="@drawable/click"
+                android:text="@string/heartbutton"
+                android:gravity="start"
+                android:drawablePadding="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:onClick="wishListClick"
+                />
+
+            <!-- 마이페이지 메뉴 구분선 -->
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="3dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/dividingline"
+                android:contentDescription="@drawable/dividingline"
+                />
+
+            <!-- 크레딧 사용내역 버튼 -->
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/answer"
+                android:drawableRight="@drawable/click"
+                android:text="@string/answerbutton"
+                android:gravity="start"
+                android:drawablePadding="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:onClick="creditHistoryClick"
+                />
+
+            <!-- 마이페이지 메뉴 구분선 -->
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="3dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/dividingline"
+                android:contentDescription="@drawable/dividingline"
+                />
+
+            <!-- 정답현황 버튼 -->
+<!--            <Button-->
+<!--                style="?android:attr/borderlessButtonStyle"-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:drawableLeft="@drawable/answer"-->
+<!--                android:drawableRight="@drawable/click"-->
+<!--                android:text="@string/answerbutton"-->
+<!--                android:gravity="start"-->
+<!--                android:drawablePadding="20dp"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:onClick="AnswerClick"-->
+<!--                />-->
+</LinearLayout>

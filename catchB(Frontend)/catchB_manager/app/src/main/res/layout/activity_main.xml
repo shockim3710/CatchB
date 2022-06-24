@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+
+    <!-- 사진등록 버튼 -->
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/addbutton"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:onClick="AddImageClick"
+        />
+
+    <!-- 사진처리 버튼 -->
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/processbutton"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:onClick="ProcessImageClick"
+        />
+
+    <!-- 기프티콘 등록 버튼 -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/addgifticonbutton"
+        android:textSize="30sp"
+        android:onClick="AddGifticonClick"/>
+</LinearLayout>

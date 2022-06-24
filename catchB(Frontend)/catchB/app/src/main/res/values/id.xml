@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv1" type="id" />
+    <item name="iv2" type="id" />
+    <item name="iv3" type="id" />
+    <item name="iv4" type="id" />
+    <item name="iv5" type="id" />
+    <item name="iv6" type="id" />
+    <item name="iv7" type="id" />
+    <item name="iv8" type="id" />
+    <item name="iv9" type="id" />
+    <item name="iv10" type="id" />
+    <item name="iv11" type="id" />
+    <item name="iv12" type="id" />
+    <item name="iv13" type="id" />
+    <item name="iv14" type="id" />
+    <item name="iv15" type="id" />
+
+    <item name="ivv1" type="id" />
+    <item name="ivv2" type="id" />
+    <item name="ivv3" type="id" />
+    <item name="ivv4" type="id" />
+    <item name="ivv5" type="id" />
+    <item name="ivv6" type="id" />
+    <item name="ivv7" type="id" />
+    <item name="ivv8" type="id" />
+    <item name="ivv9" type="id" />
+    <item name="ivv10" type="id" />
+    <item name="ivv11" type="id" />
+    <item name="ivv12" type="id" />
+    <item name="ivv13" type="id" />
+    <item name="ivv14" type="id" />
+    <item name="ivv15" type="id" />
+
+    <item name="ivvv1" type="id" />
+    <item name="ivvv2" type="id" />
+    <item name="ivvv3" type="id" />
+    <item name="ivvv4" type="id" />
+    <item name="ivvv5" type="id" />
+    <item name="ivvv6" type="id" />
+    <item name="ivvv7" type="id" />
+    <item name="ivvv8" type="id" />
+    <item name="ivvv9" type="id" />
+    <item name="ivvv10" type="id" />
+    <item name="ivvv11" type="id" />
+    <item name="ivvv12" type="id" />
+    <item name="ivvv13" type="id" />
+    <item name="ivvv14" type="id" />
+    <item name="ivvv15" type="id" />
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".touchpicture.TouchPicture">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar1" />
+
+        <ImageView
+            android:id="@+id/touched_image"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:contentDescription="TODO" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Title_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/Credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginStart="150dp"
+                android:textColor="#2C2C2C"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@drawable/credit"
+                android:src="@drawable/credit" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_hashtag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#1AC4C4C4"
+            android:fontFamily="sans-serif"
+
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/comment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Title_date" />
+
+        <View
+            android:id="@+id/empty_3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#1AC4C4C4"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/empty_4"
+                android:layout_width="8dp"
+                android:layout_height="55dp" />
+
+
+            <ImageView
+                android:id="@+id/jjim"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/jjim" />
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="55dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="sharebykakao"
+                app:srcCompat="@drawable/shareicon" />
+
+            <ImageView
+                android:id="@+id/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="hint"
+                app:srcCompat="@drawable/hinticon" />
+
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="55dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="comment"
+                app:srcCompat="@drawable/comment_button" />
+
+            <ImageView
+                android:id="@+id/camerauplode"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="camerauplodeClick"
+                app:srcCompat="@drawable/camerauplodebtn"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/imageuplode"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="imageuplodeClick"
+                app:srcCompat="@drawable/imageuplodebtn"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/empty4"
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <!--        <com.google.android.gms.ads.AdView-->
+        <!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:id="@+id/adView"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            ads:adSize="BANNER"-->
+        <!--            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+        <!--        </com.google.android.gms.ads.AdView>-->
+
+        <ImageView
+            android:id="@+id/advertising"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="70dp"
+            android:clickable="true"
+            android:contentDescription="@drawable/advertising"
+            android:onClick="advertisingClick"
+            app:srcCompat="@drawable/advertising"
+            tools:ignore="OnClick" />
+        />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">catchB</string>
+
+    <string name="Title_position">\t부산, Busan</string> // 지역이름 출력(DB 연동 후 수정 필요)
+
+    <string name="Credit">\t100 Credit</string> // 크레딧 양 (수정필요)
+
+    <string name="Title_text">Hidden place를 발견하여 크레딧을 받으세요!</string>// 제출날짜 출력(DB 연동 후 수정 필요)
+
+    <string name="loc_text1">부산, Busan</string>
+    <string name="loc_text2">여수, Yeo su</string>
+    <string name="loc_text3">수원, Suwon</string>
+<!--    #회원가입 및 로그인 페이지 string-->
+    <string name="main_text">사진을 촬영하여 여러분만의 비밀 장소를 공유해보세요.</string>"
+    <string name="signup_page_text">Catch B 회원가입</string>
+    <string name="login_page_text">Catch B 로그인</string>
+    <string name="login_text">로그인</string>
+    <string name="signup_text">회원가입</string>
+
+    <string name="hint_id">ID를 입력하세요.</string>
+    <string name="hint_pwd">비밀번호를 입력하세요.</string>
+    <string name="hint_phone">전화번호를 입력하세요.</string>
+    <string name="hint_nickname">사용할 별명을 입력하세요.</string>
+
+    <string name="btn_register">회원가입</string>
+    <string name="btn_login">로그인</string>
+
+    <string name="imageview_desc">대체 텍스트</string>
+
+
+
+
+
+    <string name="Title_date">\t2020-01-01 ~ 2021-01-01</string>// 제출날짜 출력(DB 연동 후 수정 필요)
+    <string name="hashtag">\t#선착 #안현택 #낚시 \n \n \tCatch Bee!</string> //해시태그 (수정 필요)
+    <string name="catchb_useruplodebtn">Catch Bee! 업로드하기</string>
+    <string name="nickname">꿀벌</string>
+    <string name="recommend">추천</string>
+    <string name="same_area">\t\t같은 지역 사진</string>
+    <string name="similary_contents">\t\t비슷한 콘텐츠</string>
+    <string name="comment_text">댓글 작성</string>
+    <string name="hint_popupment">20Credit이 차감됩니다.\n\n힌트는 1회성이며\n 하단에 표시되고 사라집니다.</string>
+
+    <string name="check_screen1">성공적으로 사진이 등록되었습니다!</string>
+    <string name="check_screen2">촬영 혹은 갤러리에서 사진을 등록한 후 \n 업로드 해주세요.</string>
+
+
+
+
+
+
+
+
+    <string name="username">김꿀벌</string>
+    <string name="useremail">abcd@gmail.com</string>
+    <string name="credit">380</string>
+
+    <string name="credit_date">2021-08-29</string>
+    <string name="credit_name">부산 정답</string>
+    <string name="credit_give_take">+100</string>
+
+    <string name="wish_name">부산</string>
+    <string name="wish_date">2021-08-26</string>
+    <string name="wish_hashtag">#선착장\n#낚시\n#등대\n#낫개역</string>
+    <string name="wish_image">경로저장</string>
+
+    <string name="recently_name">부산</string>
+    <string name="recently_date">2021-08-26</string>
+    <string name="recently_hashtag">#선착장\n#낚시\n#등대\n#낫개역</string>
+    <string name="recently_image">경로저장</string>
+
+    <string name="ranking_num">5</string>
+    <string name="ranking_name">김말벌</string>
+    <string name="ranking_credit">1020</string>
+
+
+    <string name="creditTT">내용</string>
+    <string name="creditCD">크레딧</string>
+    <string name="creditIF">비고</string>
+
+    <string name="credittitle">나의 크레딧</string>
+    <string name="heartbutton">찜 목록</string>
+    <string name="creditrecentlybutton">여기없애야함</string>
+    <string name="answerbutton">크레딧 사용현황</string>
+    <string name="mypage">mypage</string>
+    <string name="store">store</string>
+    <string name="logo">logo</string>
+    <string name="string_logo" />
+
+    <string name="credithistorytitle">나의 크레딧 정보</string>
+    <string name="rankingtitle">랭킹</string>
+    <string name="recentlyposttitle">최근 본 게시물</string>
+    <string name="wishlisttitle">찜 목록</string>
+
+    <string name="answertitle">크레딧 현황</string>
+
+
+    <string name="correct_place">맞는 장소입니다</string>
+    <string name="wrong_place">틀린 장소입니다</string>
+    <string name="add_credit">+100 Credit</string>
+    <string name="no_credit">+0 Credit</string>
+
+
+
+
+
+    <string name="storage">보관함</string>
+    <string name="expiration_date">유효기간 : 2021-12-08 23:59</string>
+    <string name="purchase_check">구매 확인</string>
+    <string name="purchase_popup">크레딧을 사용하여\n상품을 구매하시겠습니까?</string>
+    <string name="purchase_Y">구매</string>
+    <string name="purchase_N">닫기</string>
+
+
+    <!-- Ted Permission -->
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+</resources>

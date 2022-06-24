@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">캐치비 매니저</string>
+
+    <string name="Title_position">지역 제목</string>
+    <string name="Credit">크레딧</string>
+    <string name="Title_date1">시작 날짜</string>
+    <string name="Title_date2">마감 날짜</string>
+    <string name="hashtag">해시태그</string>
+    <string name="hint">힌트</string>
+    <string name="picture">사진</string>
+
+    <string name="addbutton">사진 등록</string>
+    <string name="uploadbutton">등록하기</string>
+    <string name="albumuplodebutton">앨범에서 사진 업로드</string>
+    <string name="processbutton">사진 처리</string>
+    <string name="equalbutton">일치</string>
+    <string name="unequalbutton">불일치</string>
+
+    <!-- 기프티콘 추가 화면-->
+    <string name="addgifticonbutton">기프티콘 등록</string>
+    <string name="gifticonname">기프티콘 이름</string>
+    <string name="gifticoncategory">카테고리</string>
+
+
+    <!-- Ted Permission -->
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+</resources>

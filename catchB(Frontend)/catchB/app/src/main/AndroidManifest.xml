@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- camera, gallery -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Intro"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".touchpicture.Comment_activity"/>
+        <activity android:name=".touchpicture.PopupActivity" android:theme="@android:style/Theme.Dialog" />
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+            android:name=".introview.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/kakaolink_host"
+                    android:scheme="@string/kakao_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- 사진 촬영을 위한 provide -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.intro.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".login.Login"/>
+        <activity android:name=".signup.SignUp"/>
+        <activity android:name=".mainpage.MainPage"/>
+        <activity android:name=".mypage.MyPage"/>
+        <activity android:name=".mypage.CreditHistory"/>
+        <activity android:name=".mypage.WishList"/>
+        <activity android:name=".touchpicture.TouchPicture"/>
+        <activity android:name=".store.Store"/>
+        <activity android:name=".store.convi_layout"/>
+        <activity android:name=".store.gift_layout"/>
+        <activity android:name=".store.gifticon_layout"/>
+        <activity android:name=".store.etc_layout"/>
+        <activity android:name=".store.storage_layout"/>
+
+    </application>
+
+</manifest>
