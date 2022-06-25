@@ -62,4 +62,6 @@
 ## About Project
 <img src="https://img.shields.io/badge/Language-Java-green?style=flat"/>  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J4B2XNKtSn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* 구현 영상  
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/J4B2XNKtSn4/0.jpg)](http://www.youtube.com/watch?v=J4B2XNKtSn4)
