@@ -39,7 +39,7 @@
 
 ## System Spec
 
-| Specifications |
+|  |  |
 |:------:| :- |
 | Platform | Android |
 | OS | Windows 10 |
