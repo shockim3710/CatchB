@@ -60,5 +60,6 @@
 
 
 ## About Project
-<img src="https://img.shields.io/badge/Language-Java-green?style=flat"/>
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=J4B2XNKtSn4" frameborder="0" gesture="media" allowfullscreen=""></iframe></a>
+<img src="https://img.shields.io/badge/Language-Java-green?style=flat"/>  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J4B2XNKtSn4" frameborder="0" allowfullscreen></iframe>
