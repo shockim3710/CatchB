@@ -59,5 +59,5 @@
 * Back-End에서는 Web Server는 Tomcat을 사용하며, WAS 서버는 Spring Boot 프레임 워크를 사용하여 MVC 패턴으로 구현하였다.  
 
 
-## About Project
+
 <iframe width="640" height="360" src="https://www.youtube.com/watch?v=J4B2XNKtSn4" frameborder="0" gesture="media" allowfullscreen=""></iframe>
