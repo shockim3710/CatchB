@@ -37,6 +37,15 @@
 사용자는 자신만의 기능을 마이페이지에서 사용할 수 있게 구현한다. 자신의 정보, Credit 보유 수량, 사용 내용 등을 받는다.  
 
 
+## System Configuration Diagram
+![image](https://user-images.githubusercontent.com/60650967/175770637-19bd0a34-d8be-407c-bdc9-34daa9ed798e.png)  
+ 
+* Android 앱의 개발 도구인 ‘Android Studio’를 사용하여, View를 제작하였다. 
+* xml 파일을 통해 디자인을 제작하였으며, 서버에서 제공하는 REST API 데이터를 가공하는 클라이언트의 역할을 Front-End에서 진행하였다.  
+* Back-End에서는 Web Server는 Tomcat을 사용하며, WAS 서버는 Spring Boot 프레임 워크를 사용하여 MVC 패턴으로 구현하였다.  
+
+
+
 ## System Spec
 
 |  |  |
@@ -50,14 +59,6 @@
 | IDE | Android Studio, Intellij IDEA |
 | 형상관리 | GIT |
  
-
-## System Configuration Diagram
-![image](https://user-images.githubusercontent.com/60650967/175770637-19bd0a34-d8be-407c-bdc9-34daa9ed798e.png)  
- 
-* Android 앱의 개발 도구인 ‘Android Studio’를 사용하여, View를 제작하였다. 
-* xml 파일을 통해 디자인을 제작하였으며, 서버에서 제공하는 REST API 데이터를 가공하는 클라이언트의 역할을 Front-End에서 진행하였다.  
-* Back-End에서는 Web Server는 Tomcat을 사용하며, WAS 서버는 Spring Boot 프레임 워크를 사용하여 MVC 패턴으로 구현하였다.  
-
 
 ## About Project
 <img src="https://img.shields.io/badge/Language-Java-green?style=flat"/>  
